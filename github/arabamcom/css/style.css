@@ -1,0 +1,168 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  *:not(input):not(textarea) {
+    -moz-user-select: -moz-none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -o-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  
+  body {
+  }
+
+.center{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.arabam{
+    position: absolute;
+    height: 600px;
+    width: 900px;
+    background-color: rgb(54, 54, 54);
+    border-radius: 10px;
+}
+
+.arabam h1{
+    color: rgb(139, 139, 139);
+    position: absolute;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 25px;
+    left: 223px;
+    top: 40px;
+}
+
+.line{
+    background-color: rgb(139, 139, 139);
+    position: absolute;
+    height: 1px;
+    width: 500px;
+    top: 75px;
+    left: 215px;
+}
+
+.input1{
+    position: absolute;
+    border: none;
+    outline: none;
+    width: 380px;
+    height: 50px;
+    top: 150px;
+    border-radius: 10px;
+    left: 260px;
+    background-color: rgb(95, 93, 93);
+    color: white;
+}
+
+.input1::placeholder{
+    color: rgb(177, 177, 177);
+}
+
+.input2{
+    position: absolute;
+    border: none;
+    outline: none;
+    width: 380px;
+    height: 50px;
+    top: 225px;
+    border-radius: 10px;
+    left: 260px;
+    background-color: rgb(95, 93, 93);
+    color: white;
+}
+
+.input2::placeholder{
+    color: rgb(177, 177, 177);
+}
+
+.input3{
+    position: absolute;
+    border: none;
+    outline: none;
+    width: 380px;
+    height: 50px;
+    top: 300px;
+    border-radius: 10px;
+    left: 260px;
+    background-color: rgb(95, 93, 93);
+    color: white;
+}
+
+.input3::placeholder{
+    color: rgb(177, 177, 177);
+}
+
+.input4{
+    position: absolute;
+    border: none;
+    outline: none;
+    width: 380px;
+    height: 50px;
+    top: 375px;
+    border-radius: 10px;
+    left: 260px;
+    background-color: rgb(95, 93, 93);
+    color: white;
+}
+
+.input4::placeholder{
+    color: rgb(177, 177, 177);
+}
+
+.arabamlogo{
+    position: absolute;
+    width: 170px;
+    left: 15px;
+    top: 45px;
+}
+
+.arabapng{
+    position: absolute;
+    width: 128px;
+    left: 750px;
+    top: -5px;
+}
+
+.sendbutton{
+    position: absolute;
+    border: none;
+    outline: none;
+    width: 200px;
+    height: 70px;
+    left: 350px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    background-color: rgb(0, 97, 177);
+    color: white;
+    top: 480px;
+    border-radius: 10px;
+}
+
+.sendbutton:hover{
+    background-color: yellow;
+    color: black;
+}
+
+.kapatbutton{
+    position: absolute;
+    background: transparent;
+    color: white;
+    border: none;
+    outline: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    left: 870px;
+    top: 5px;
+}
+
+.kapatbutton:hover{
+    color: red;
+}
