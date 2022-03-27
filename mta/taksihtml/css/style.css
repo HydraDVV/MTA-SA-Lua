@@ -1,0 +1,237 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+*:not(input):not(textarea) {
+    -moz-user-select: -moz-none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -o-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.main{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.taxi{
+    position: absolute;
+    height: 500px;
+    width: 750px;
+    background-color: rgb(48, 48, 48);
+    border-radius: 10px;
+}
+
+.taxi h1{
+    position: absolute;
+    color: rgb(189, 189, 189);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    left: 160px;
+    font-size: 25px;
+    top: 20px;
+}
+
+.line{
+    position: absolute;
+    height: 1px;
+    width: 500px;
+    background: rgb(189, 189, 189);
+    top: 60px;
+    left: 125px;
+}
+
+.car{
+    position: absolute;
+    width: 75px;
+    left: 20px;
+    top: 15px;
+}
+
+.closebtn{
+    position: absolute;
+    border: none;
+    outline: none;
+    background: transparent;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    left: 700px;
+    top: 18px;
+}
+
+.closebtn:hover{
+    color: red;
+}
+
+.taxi h2{
+    position: absolute;
+    color: rgb(255, 255, 255);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    left: 205px;
+    top: 80px;
+}
+
+.igs{
+    position: absolute;
+    width: 128px;
+    height: 90px;
+    border-radius: 5px;
+    left: 35px;
+}
+
+.fish{
+    position: absolute;
+    width: 128px;
+    height: 90px;
+    border-radius: 5px;
+    left: 35px;
+    top: 100px;
+}
+.trt{
+    position: absolute;
+    width: 128px;
+    height: 90px;
+    border-radius: 5px;
+    left: 35px;
+    top: 200px;
+}
+
+.tütün{
+    position: absolute;
+    width: 128px;
+    height: 90px;
+    border-radius: 5px;
+    left: 35px;
+    top: 300px;
+}
+
+.teleport{
+    position: absolute;
+    overflow-y: scroll;
+    background: transparent;
+    width: 750px;
+    height: 300px;
+    top: 140px;
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+    background-color: #000000;
+    border-left: 0.5px solid #000000;
+}
+  ::-webkit-scrollbar-thumb {
+    background-color: #ffe600;
+}
+
+.teleport h1{
+    position: absolute;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(255, 255, 255);
+    left: 330px;
+    font-size: 22px;
+}
+
+.teleport h2{
+    position: absolute;
+    top: 125px;
+    left: 330px;
+    font-size: 22px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(255, 255, 255);
+}
+
+.teleport h3{
+    position: absolute;
+    top: 230px;
+    left: 350px;
+    font-size: 22px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(255, 255, 255);
+}
+
+.teleport h4{
+    position: absolute;
+    top: 330px;
+    left: 340px;
+    font-size: 22px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(255, 255, 255);
+}
+
+.igsbtn{
+    position: absolute;
+    border: none;
+    outline: none;
+    width: 95px;
+    height: 50px;
+    top: 10px;
+    border-radius: 10px;
+    left: 600px;
+    background: rgb(219, 201, 40);
+    color: black;
+    font-size: 14px;
+}
+
+.igsbtn:hover{
+    background: rgb(255, 230, 0);
+}
+
+.fishbtn{
+    position: absolute;
+    border: none;
+    outline: none;
+    width: 95px;
+    height: 50px;
+    top: 115px;
+    border-radius: 10px;
+    left: 600px;
+    background: rgb(219, 201, 40);
+    color: black;
+    font-size: 14px;
+}
+
+.fishbtn:hover{
+    background: rgb(255, 230, 0);
+}
+
+.trtbtn{
+    position: absolute;
+    border: none;
+    outline: none;
+    width: 95px;
+    height: 50px;
+    top: 220px;
+    border-radius: 10px;
+    left: 600px;
+    background: rgb(219, 201, 40);
+    color: black;
+    font-size: 14px;
+}
+
+.trtbtn:hover{
+    background: rgb(255, 230, 0);
+}
+
+.tütünbtn{
+    position: absolute;
+    border: none;
+    outline: none;
+    width: 95px;
+    height: 50px;
+    top: 325px;
+    border-radius: 10px;
+    left: 600px;
+    background: rgb(219, 201, 40);
+    color: black;
+    font-size: 14px;
+}
+
+.tütünbtn:hover{
+    background: rgb(255, 230, 0);
+}

@@ -1,0 +1,9 @@
+<meta>
+	<info author="R3DELETE" version="1.0" name="Helikopter Scripti WinterMTA" type="script" />
+
+	<script src="shared/settings.lua" type="shared" cache="false" />
+	<script src="client/gui.lua" type="client" cache="false" />
+	<script src="client/functions.lua" type="client" cache="false" />
+
+	<script src="server/functions.lua" type="server" />
+</meta>

@@ -1,0 +1,22 @@
+<meta>
+<info author="Odrin" version="1.0.0" name="taxiscript" description=""  />
+
+<file src="index.html" />
+<file src="css/style.css" />
+<script src="client.lua" type="client" cache="false" />
+<script src="server.lua" type="server" />
+<script src="s_npc.lua" type="server" />
+
+<!--
+    File
+-->
+
+<file src="img/car.png" />
+<file src="img/igs.png" />
+<file src="img/fish.png" />
+<file src="img/trt.png" />
+<file src="img/tutun.png" />
+
+
+
+</meta>
