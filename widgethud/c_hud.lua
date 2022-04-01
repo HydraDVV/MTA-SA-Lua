@@ -10,14 +10,14 @@ elseif sx == 1940 then
     size = 0.8 
 end
 
-local awesome = exports.ed_fonts:getFont('FontAwesome', 11)
-local robotoB = exports.ed_fonts:getFont('RobotoB', 11)
-local robotoB1 = exports.ed_fonts:getFont('RobotoB', 9.5)
-local robotoB32 = exports.ed_fonts:getFont('RobotoB', 30)
+local awesome = exports.titan_fonts:getFont('FontAwesome', 11)
+local robotoB = exports.titan_fonts:getFont('RobotoB', 11)
+local robotoB1 = exports.titan_fonts:getFont('RobotoB', 9.5)
+local robotoB32 = exports.titan_fonts:getFont('RobotoB', 30)
 
-local clockIcon = exports.ed_fonts:getIcon('fa-clock-o')
-local playerIcon = exports.ed_fonts:getIcon('fa-users')
-local wallet = exports.ed_fonts:getIcon('fa-dollar')
+local clockIcon = exports.titan_fonts:getIcon('fa-clock-o')
+local playerIcon = exports.titan_fonts:getIcon('fa-users')
+local wallet = exports.titan_fonts:getIcon('fa-dollar')
 
 
 local posXOffset, posYOffset = 15, 30
@@ -62,7 +62,7 @@ function renderHud()
         dxDrawImage(sx-toBeDrawnWidth-1+posXOffset+145, 5+posYOffset+120, 25, 20, "files/hunger.png" )
 
         local theVehicle = getPedOccupiedVehicle(localPlayer)
-        local money = exports.ed_global:formatMoney(exports.ed_global:getMoney(localPlayer))
+        local money = exports.titan_global:formatMoney(exports.titan_global:getMoney(localPlayer))
         if theVehicle then
             local vehs = math.floor(getElementSpeed(theVehicle, "kmh"))
             local fuel = getElementData(theVehicle, "fuel") or 100
@@ -177,7 +177,7 @@ function dxDrawRoundedRectangle(x, y, rx, ry, color, radius)
 end
 
 function test()
-    if not exports.ed_integration:isPlayerDeveloper(localPlayer) then return end
+    if not exports.titan_integration:isPlayerDeveloper(localPlayer) then return end
     setElementData(localPlayer, "pvp", false)
     setElementData(localPlayer, "pvpsure", 0)
 end
