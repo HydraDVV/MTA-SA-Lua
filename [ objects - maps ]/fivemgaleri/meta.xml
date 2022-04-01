@@ -1,0 +1,28 @@
+<meta>
+    <script src="porta.lua" type="server" />
+    <script src="client.lua" type="client" />
+    <file src="objeto/f65d5f65d65f6d5f6523cd365d632df56d6f5d65f6dsf454df.txd" />
+    <file src="objeto/f65d5f65d65f6d5f6523cd365d632df56d6f5d65f6dsf454df.dff" />
+    <file src="objeto/f65d5f65d65f6d5f6523cd365d632df56d6f5d65f6dsf454df.col" />
+    <file src="objeto/porta.txd" />
+    <file src="objeto/porta.dff" />
+    <file src="objeto/porta.col" />
+    <file src="objeto/model.txd" />
+    <file src="objeto/model.dff" />
+    <file src="objeto/model.col" />
+    <info type="map" version="1.0.0"></info>
+    <map src="[3DMaps]Conce.map" dimension="0"></map>
+    <settings>
+        <setting name="#maxplayers" value="[ 128 ]"></setting>
+        <setting name="#useLODs" value="[ false ]"></setting>
+        <setting name="#gamespeed" value="[ 1 ]"></setting>
+        <setting name="#minplayers" value="[ 0 ]"></setting>
+        <setting name="#gravity" value="[ 0.008 ]"></setting>
+        <setting name="#waveheight" value="[ 0 ]"></setting>
+        <setting name="#locked_time" value="[ false ]"></setting>
+        <setting name="#weather" value="[ 0 ]"></setting>
+        <setting name="#time" value="12:0"></setting>
+    </settings>
+    <script src="mapEditorScriptingExtension_s.lua" type="server"></script>
+    <script src="mapEditorScriptingExtension_c.lua" type="client" validate="false"></script>
+</meta>
